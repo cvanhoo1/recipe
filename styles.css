@@ -1,0 +1,58 @@
+html{
+    background-color:rgba(122, 191, 191, .5);
+    
+}
+
+/*Mobile*/
+
+body{
+    background-color:#F2F2F2;
+    width: 414px;
+    margin:auto;
+}
+
+h1, h2, h3{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+h1{
+    font-size: 40px;
+    transform: translate(120px,150px);
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+
+p,dd,li,nav,input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+dt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+img{
+    width: 100%
+}
+
+#hamburger {
+    width:80px;
+    height: 80px;
+    position: absolute;
+    transform: translateY(-4600px)
+    
+}
+#hamburger svg{
+    position:relative;
+    top: 20px;
+    left:20px;
+}
+
+#logo{
+    transform: translateY(-4600px,100px) 
+}
