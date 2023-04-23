@@ -52,7 +52,7 @@ img{
     width:80px;
     height: 80px;
     position: absolute;
-    translate: 10px -4760px;
+    
      
 }
 #hamburger svg{
@@ -63,7 +63,7 @@ img{
 #hamburger nav a{
     padding-left: 12px;
 }
-#hamburger p{
+#hamburger label {
     font-size: 20px;
     font-family:'Bebas Neue', cursive;
     color:black;
@@ -81,7 +81,6 @@ nav li{
 #logo{
     width:210px;
     margin:0;
-    translate: 65px -4750px;
     background-color: #eb5428;
     position: absolute;
 }
@@ -157,7 +156,7 @@ menu > li{
     width:80px;
     height: 80px;
     position: absolute;
-    translate:285px -7535px;
+    
     
 
 }
@@ -167,7 +166,7 @@ menu > li{
     padding-left:17px;
  
 }
-#avatar > p {
+#avatar > label {
     font-size: 20px;
     font-family:'Bebas Neue', cursive;
     color:black;
@@ -190,6 +189,7 @@ nav > li {
 
 #searchbar > svg {
     background-color: #eb5428;
+  
 }
 
 input{
@@ -203,6 +203,21 @@ input::placeholder {
     font-size: 16px;
 }
 
+#sideDish{
+    background-color:#7ABFBF;
+}
 
+.cards img {
+    width:100px;
+    padding-left:10px;
+}
+
+#mainNav> ul {
+  
+}
+
+#mainNav img{
+    display:none;
+}
 
 
