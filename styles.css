@@ -13,12 +13,17 @@ body{
 
 h1, h2, h3{
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 
 }
 
 h1{
     font-size: 40px;
-    transform: translate(120px,150px);
+    padding-top: 250px;
+    margin-bottom: 12px;
+    
+
+    
 }
 h2{
     font-size: 30px;
@@ -53,6 +58,67 @@ img{
     left:20px;
 }
 
-#logo{
-    transform: translateY(-4600px,100px) 
+ li {
+    list-style: none;
 }
+
+#logo{
+    width:210px;
+    margin:0;
+    transform: translate(130px,-4600px);
+    background-color: #eb5428;
+    position: absolute;
+}
+
+#logo svg{
+    position: relative;
+    left:75px;
+}
+
+
+#about > p {
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+
+
+
+dl{
+    display: flex;
+    margin: 8px 8px;
+}
+
+dd{
+    margin-left: 10px;
+}
+
+#details > h2{
+    margin-bottom: 12px;
+}
+
+#ingredientsDirections > ul {
+padding-left: 30px;
+}
+
+menu{
+    display: flex;
+    margin:auto;
+    padding: 0;
+    justify-content: end;
+}
+
+menu > li{
+    padding: 12px 24px;
+}
+
+figcaption{
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    color:#eb5428
+    
+}
+
+
+
