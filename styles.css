@@ -212,12 +212,206 @@ input::placeholder {
     padding-left:10px;
 }
 
-#mainNav> ul {
+
+
+
+
+
+
+/* Medium Screen Start*/
+
+@media screen and (min-width:768px) {
+
+    body{
+        width: 768px;
+        height:100%;
+        margin: auto;
+    }
+
+nav img{
+    width: 80px;
+}
+
+#mainNav{
+    display: flex;
+    padding-left: 0px;
+    text-align:center;
   
 }
 
+
 #mainNav img{
-    display:none;
+    
+    justify-content: center;
+}
+
+nav{
+    position:relative;
+    top: -2690px;
+    
+}
+
+nav a{
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    color:#eb5428
+}
+#logo{
+    width:60px;
+    margin:0;
+    background-color: #eb5428;
+    translate: 0px -95px;
+}
+
+#logo svg{
+    position: relative;
+    left: 0px;
+    
 }
 
 
+h1{
+    padding-top: 130px;
+    padding-left: 24px;
+    text-align:left;
+    transform: translate(0px,95px);
+}
+
+menu{
+    background-color:#F2F2F2;
+    background-color: rgba(255,255,255,0.5);
+    position: relative;
+    z-index: 99;
+    justify-content: space-evenly;
+    transform: translate(0px,95px);
+   
+    
+}
+#about img{
+  position: relative;
+  z-index: 1;
+  
+}
+
+#details dl{
+    text-align: center;
+    padding-left: 275px;
+
+}
+
+#ingredientsDirections{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    padding-right: 12px;
+}
+
+#dishcards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom:24px;
+      
+}
+
+.cards{
+    height: 200px;
+    align-items: center;
+}
+
+.cards p{
+    position:relative;
+    left: 125px;
+    top: -80px;
+    
+}
+
+.cards svg{
+    position: relative;
+    left: 195px;
+    top: -115px;
+}
+
+.cards p ~ p{
+    font-weight: 700;
+}
+
+.cards h3{
+    position: relative;
+    top: 60px;
+    left: -14px;
+}
+
+#sideDish h2{
+    margin-bottom: 0px;
+    position: relative;
+    top: 40px;
+}
+
+#avatar{
+    translate: -94px -100px;
+}
+
+#avatar a{
+    height: 40px;
+}
+#avatar svg{
+    position: relative;
+    left: -6px;
+}
+
+#searchbar{
+    position:relative;
+    top: 4550px;
+    left: 310px;
+}
+
+#hamburger{
+    display: none;
+}
+
+
+#socialMedia{
+    width: 500px;
+    justify-content: space-evenly;
+    position:absolute;
+    top: 2800px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#socialMedia > li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#socialMedia label{
+    font-size: 16px;
+    font-family:'Bebas Neue', cursive;
+    text-align: center;
+    color:#eb5428
+    
+}
+
+footer{
+    height:200px;
+}
+
+footer > p{
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+    margin: 6px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+footer > img{
+    width: 200px;
+    position:absolute;
+    top: 2800px;
+    left: 150px;
+    
+    
+}
+}

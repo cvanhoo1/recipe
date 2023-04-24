@@ -1,0 +1,38 @@
+.cards{
+    height: 170px;
+    
+}
+
+.cards img {
+    width:100px;
+    padding-left:10px;
+}
+
+.cards > p  {
+    font-size: 14px;
+    margin-left:100px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    translate: 20px -65px;
+     
+}
+
+.cards p ~ p{
+    font-weight: 700;
+}
+
+.cards h3{
+    margin: 0px;
+    translate: -35px 27px;
+  
+}
+
+.stars{
+    margin-left:100px;
+    translate: 20px -55px;
+    
+}
+
+#sideDish{
+    background-color:#7ABFBF;
+}
