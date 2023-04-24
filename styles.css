@@ -337,7 +337,8 @@ menu{
 .cards h3{
     position: relative;
     top: 60px;
-    left: -14px;
+    left: 125px;
+    text-align:left;
 }
 
 #sideDish h2{
@@ -389,7 +390,7 @@ menu{
     font-size: 16px;
     font-family:'Bebas Neue', cursive;
     text-align: center;
-    color:#eb5428
+    color:#eb5428;
     
 }
 
@@ -414,4 +415,116 @@ footer > img{
     
     
 }
+}
+
+/* Large Screen Start*/
+
+@media screen and (min-width:1280px) {
+
+    body{
+        width: 1280px;
+        margin:auto;
+    }
+
+    h1{
+        text-align:center;
+        padding-top: 50px;
+        position: relative;
+        top: 100px;
+    }
+
+    #about img{
+        width: 100%
+        
+    }
+menu{
+    flex-direction:column;
+    width: 150px;
+    height: 750px;
+    justify-content: flex-start;
+    margin-top:0px;
+    position: relative;
+    top: -95px;
+    border: 1px solid #eb5428;
+    
+}
+#about{
+    display:grid;
+    grid-template-columns: 150px 500px 1fr ;
+    margin-top: 200px;
+}
+
+#paragraphs{
+    padding-left: 24px;
+    line-height: 2;
+}
+
+#details{
+    background-color: #0D0D0D;
+    color:#7ABFBF;
+}
+
+#detailItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 1280px;
+}
+
+#detailItems > dl{
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+#dishcards{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 400px;
+}
+#dishcards img{
+width: 70%;
+position: relative;
+left: 40px;
+top:-20px;
+
+}
+
+#dishcards h3{
+    position: relative;
+    top:265px;
+    left: 50px;
+    text-align:left;
+}
+#dishcards p{
+    position: relative;
+    top:5px;
+    left: 50px;
+}
+
+.cards svg{
+position: relative;
+top:-30px;
+left: 125px;
+
+}
+
+#socialMedia{
+    position:relative;
+    top: -140px;
+    left: 750px;
+}
+
+footer img{
+    width: 300px;
+    position: relative;
+    top: -250px;
+    left: 25px;
+}
+footer p{
+    position: relative;
+    top: -140px;
+    left: 340px;
+
+}
+
 }
