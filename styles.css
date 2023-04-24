@@ -527,4 +527,25 @@ footer p{
 
 }
 
+#searchbar{
+    position:relative;
+    top: 5360px;
+    left: 440px;
+}
+
+#mainNav{
+    display:flex;
+    justify-content:space-evenly;
+    width:1000px;
+    position:relative;
+    top: 600px;
+    left: 140px;
+    text-align:center;
+}
+
+#mainNav img{
+    width:100px;
+   
+}
+
 }
