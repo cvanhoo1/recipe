@@ -82,12 +82,18 @@ nav li{
     width:210px;
     margin:0;
     background-color: #eb5428;
-    position: absolute;
+    position:absolute;
+    top:0px;
+    left:100px;
+    
+    
 }
 
 #logo svg{
     position: relative;
+    top: 0px;
     left:75px;
+    
 }
 
 
@@ -155,7 +161,9 @@ menu > li{
     justify-content: center;
     width:80px;
     height: 80px;
-    position: absolute;
+    position: relative;
+    top:-3400px;
+    left: 350px;
     
     
 
@@ -184,7 +192,9 @@ nav > li {
 #searchbar{
     display:flex;
     flex-direction: row;
-    translate: 70px -7440px;
+    position: relative;
+    top: -3470px;
+    left: 75px;
 }
 
 #searchbar > svg {
@@ -214,12 +224,12 @@ input[type=text]::placeholder {
 
 /*testing hamburger styles*/
 nav {
-    width: 100px;
-    
+    width: 375px;
     position: absolute;
     top: 0;
     z-index:1;
     text-transform: uppercase;
+    overflow:visible;
 }
 
 nav li img{
@@ -238,17 +248,23 @@ nav ul {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #2104D9;
+    background-color: #eb5428;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
 nav li a {
-    display: block;
+    display: flex;
+    height: 70px;
     padding: 20px 20px;
     text-decoration: none;
     color: #ffffff;
 }
-[href="#home"] {
+
+nav li{
+    height: 100px;
+}
+
+[href="#"] {
     text-transform: capitalize;
     font-variant: small-caps;
     font-weight: bold;
@@ -259,7 +275,7 @@ nav li a {
     padding: 16px 16px;
 }
 a:hover, input:hover {
-    background-color: #590242;
+    background-color: #7ABFBF;
 }
 label {
     cursor: pointer;
@@ -294,10 +310,16 @@ label span:after {
 input[type=checkbox] {
     display: none;
 }
+
 input[type=checkbox]:checked ~ ul {
-    max-height: 500px;
+    max-height: 800px;
 }
+#hamburger:checked {
+    display:none;
+}
+
 input[type=checkbox] :checked ~ label span {
+    
     background: transparent;
 }
 input[type=checkbox] :checked ~ label span:before {
