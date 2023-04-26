@@ -23,8 +23,6 @@ h1{
     margin-bottom: 12px;
     margin-top: 0px;
     
-
-    
 }
 h2{
     font-size: 30px;
@@ -310,7 +308,7 @@ footer p{
 
 
 
-/*testing hamburger styles*/
+/* hamburger styles*/
 nav {
     width: 375px;
     position: absolute;
@@ -324,13 +322,7 @@ nav li img{
     visibility:hidden;
 }
 
-nav ul {
-    text-align: center;
-}
-nav h2 {
-    visibility: hidden;
-    height: 1px;
-}
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -352,16 +344,7 @@ nav li{
     height: 100px;
 }
 
-[href="#"] {
-    text-transform: capitalize;
-    font-variant: small-caps;
-    font-weight: bold;
-    font-size: 30px;
-    position: absolute;
-    top: 0;
-    left: 90px;
-    padding: 16px 16px;
-}
+
 a:hover, input:hover {
     background-color: #7ABFBF;
 }
@@ -434,27 +417,31 @@ input[type=checkbox] :checked ~ label:not(.steps) span:before, input:checked ~ l
         margin: auto;
     }
 
+    input[type=checkbox]:disabled{
+        background-color: #7ABFBF;
+    }
+    }
+
 nav img{
     width: 80px;
 }
 
-#mainNav{
-    display: flex;
-    padding-left: 0px;
-    text-align:center;
+nav{
+    width:700px;
+    position:absolute;
+    top: 0px;
+    
+   
   
 }
 
-
-#mainNav img{
-    
-    justify-content: center;
+nav ul{
+    display:flex;
+    flex-direction: row;
 }
 
-nav{
-    position:relative;
-    top: -2690px;
-    
+nav li img{
+    visibility: visible;
 }
 
 nav a{
@@ -462,6 +449,9 @@ nav a{
     text-align: center;
     color:#eb5428
 }
+
+
+
 #logo{
     width:60px;
     margin:0;
