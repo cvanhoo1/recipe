@@ -162,16 +162,14 @@ menu > li{
     width:80px;
     height: 80px;
     position: relative;
-    top:-3400px;
-    left: 350px;
-    
-    
+    top:-3140px;
+    left: 340px;
 
 }
 
 #avatar > a {
     position:relative;
-    padding-left:17px;
+    padding-left:19px;
  
 }
 #avatar > label {
@@ -180,6 +178,8 @@ menu > li{
     color:black;
     margin:0;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 nav > li {
@@ -193,7 +193,7 @@ nav > li {
     display:flex;
     flex-direction: row;
     position: relative;
-    top: -3470px;
+    top: -3120px;
     left: 75px;
 }
 
@@ -213,14 +213,86 @@ input[type=text]::placeholder {
     font-size: 16px;
 }
 
+#socialMedia{
+    display:flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0px;
+    position: relative;
+    top: -100px;
+    
+    
+
+}
+
+#socialMedia li{
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive;
+    color:#eb5428;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#socialMedia svg{
+    position: relative;
+    left: 30px;
+    top: 24px;
+}
+
 #sideDish{
     background-color:#7ABFBF;
+    
 }
+
+
 
 .cards img {
     width:100px;
     padding-left:10px;
 }
+
+.cards h3{
+    text-align: left;
+    position: relative;
+    top:65px;
+    left:125px;  
+}
+
+.cards{
+    height:150px;
+}
+
+#dishcards{
+    height:700px;
+}
+
+#sideDish h2{
+    margin-bottom: 0px;
+    padding-top: 24px;
+}
+
+.cards p{
+    margin-top:6px;
+    margin-bottom:6px;
+    position: relative;
+    top:-65px;
+    left:125px;  
+}
+
+.stars{
+    margin-top:6px;
+    margin-bottom:6px;
+    position: relative;
+    top:-88px;
+    left:195px;  
+}
+
+footer img{
+    width: 50%;
+}
+
+
 
 /*testing hamburger styles*/
 nav {
