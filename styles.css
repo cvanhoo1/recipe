@@ -472,7 +472,10 @@ label span, input[type=checkbox] {
     width:60px;
     margin:0;
     background-color: #eb5428;
-    translate: 0px -95px;
+    position:absolute;
+    left:0px;
+    
+    
 }
 
 #logo svg{
@@ -560,7 +563,10 @@ menu{
 }
 
 #avatar{
-    translate: -94px -100px;
+    position: relative;
+    top:-3080px;
+    left: 690px;
+    
 }
 
 #avatar a{
@@ -568,13 +574,13 @@ menu{
 }
 #avatar svg{
     position: relative;
-    left: -6px;
+    left: 0px;
 }
 
 #searchbar{
     position:relative;
     top: -3150px;
-    left: 310px;
+    left: 410px;
 }
 
 #hamburger{
