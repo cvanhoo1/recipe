@@ -666,6 +666,13 @@ footer > img{
         width: 100%
         
     }
+
+nav ul{
+    position: relative;
+    left: 245px;
+    top: -60px;
+}
+
 menu{
     flex-direction:column;
     width: 150px;
@@ -758,23 +765,28 @@ footer p{
 
 #searchbar{
     position:relative;
-    top: 5360px;
-    left: 440px;
+    top: -2075px;
+    left: 525px;
 }
 
-#mainNav{
-    display:flex;
-    justify-content:space-evenly;
-    width:1000px;
-    position:relative;
-    top: 600px;
-    left: 140px;
-    text-align:center;
-}
-
-#mainNav img{
-    width:100px;
+#avatar{
+    position: relative;
+    top:-2140px;
+    left: 1190px;
+    
    
 }
+
+#logo{
+    height: 80px;
+    width: 80px;
+}
+
+#logo svg{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
 
 }
