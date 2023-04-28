@@ -346,7 +346,8 @@ nav li{
 
 
 a:hover, input:hover {
-    background-color: #7ABFBF;
+    background-color: #ffffff;
+    color:#eb5428;
 }
 label {
     cursor: pointer;
@@ -514,6 +515,11 @@ menu{
 
 }
 
+#paragraphs{
+    padding-left:12px;
+    padding-right: 12px;
+}
+
 #ingredientsDirections{
     display:grid;
     grid-template-columns: 200px 1fr;
@@ -554,6 +560,11 @@ menu{
     top: 60px;
     left: 125px;
     text-align:left;
+}
+
+.cards:hover{
+    background-color: #eb5428;
+    color:#ffffff;
 }
 
 #sideDish h2{
@@ -638,10 +649,31 @@ footer > img{
     left:5px;
 }
 
-
-
-
+nav li:hover{
+    background-color: #eb5428;
     
+}
+
+nav li > a:hover{
+    color:#ffffff;
+}
+
+#avatar:hover{
+    background-color: #eb5428;
+}
+
+menu li:hover{
+    background-color: #eb5428;
+    color:#ffffff;
+    }
+    
+   input:hover{
+    background-color: #ffffff;
+    color:#eb5428;
+   } 
+
+
+
 }
 
 
@@ -684,6 +716,11 @@ menu{
     border: 1px solid #eb5428;
     
 }
+menu li:hover{
+background-color: #eb5428;
+color:#ffffff;
+}
+
 #about{
     display:grid;
     grid-template-columns: 150px 500px 1fr ;
@@ -746,9 +783,23 @@ left: 125px;
 
 #socialMedia{
     position:relative;
-    top: -140px;
+    top: -100px;
     left: 750px;
 }
+
+#socialMedia label{
+    padding: 0px;
+    position: relative;
+    top: 25px;
+    left:25px;
+}
+
+#socialMedia label:hover{
+    background-color: #eb5428;
+    color:#ffffff;
+}
+
+
 
 footer img{
     width: 300px;
@@ -769,12 +820,21 @@ footer p{
     left: 525px;
 }
 
+
+#searchbar:active{
+    background-color:#ffffff;
+    border: 1px solid black;
+}
+
 #avatar{
     position: relative;
     top:-2140px;
     left: 1190px;
     
-   
+}
+
+#avatar:hover{
+    background-color: #eb5428;
 }
 
 #logo{
@@ -786,6 +846,15 @@ footer p{
     position: relative;
     left: 10px;
     top: 10px;
+}
+
+nav li:hover{
+    background-color: #eb5428;
+    
+}
+
+nav li > a:hover{
+    color:#ffffff;
 }
 
 
